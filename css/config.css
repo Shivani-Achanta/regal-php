@@ -1,0 +1,64 @@
+:root{
+    --white: #ffffff;
+    --black: #353b48;
+    --bg: rgb(228, 246, 250);
+    --pur: #6a26cd;
+    --t1: #37b9f1;
+    --t2: #00d1b2;
+    --t3:#ffe08a;
+    --t4:#f14668;
+    --raisinb:#2E282A;
+    --green: #2bd492
+}
+.bg{
+    background: var(--bg);
+}
+.white
+{
+    background: var(--white);
+}
+.black
+{
+    background: var(--black);
+}
+.t1
+{
+    background: var(--t1);
+}
+.t2
+{
+    background: var(--t2);
+}
+.t3
+{
+    background: var(--t3);
+}
+.t4
+{
+    background: var(--t4);
+}
+.raisinb
+{
+    background: var(--raisinb);
+}
+.green
+{
+    background: var(--green);
+}
+.pur
+{
+    background: var(--pur);
+}
+
+.ccard  
+{
+    border: 2px rgb(165, 163, 163) solid;
+    border-radius: 5px;
+    /* width: 50%; */
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.ccard:hover{
+    box-shadow:  0 0 15px lightgrey;
+}

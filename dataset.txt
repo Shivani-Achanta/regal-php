@@ -1,0 +1,62 @@
+Reasoning:
+Certainly! Here are five reasoning questions along with four options, the correct answers, and explanations:
+
+**1. Question:**
+   - **Options:**
+     - A. 25
+     - B. 50
+     - C. 75
+     - D. 100
+   - **Correct Answer:** B. 50
+   - **Explanation:** If the pattern is to double the previous number, starting with 25, then the sequence would be 25, 50, 100, and so on.
+
+**2. Question:**
+   - **Options:**
+     - A. Square
+     - B. Circle
+     - C. Triangle
+     - D. Rectangle
+   - **Correct Answer:** C. Triangle
+   - **Explanation:** In a square, all angles are 90 degrees. A circle has no angles, and a rectangle has at least one angle of 90 degrees. A triangle has at least one angle that is not 90 degrees.
+
+**3. Question:**
+   - **Options:**
+     - A. 3
+     - B. 6
+     - C. 9
+     - D. 12
+   - **Correct Answer:** C. 9
+   - **Explanation:** The pattern is a sequence of consecutive odd numbers: 1, 3, 5, 7, 9, and so on.
+
+**4. Question:**
+   - **Options:**
+     - A. Mercury
+     - B. Venus
+     - C. Mars
+     - D. Jupiter
+   - **Correct Answer:** B. Venus
+   - **Explanation:** The order of the planets in our solar system, moving outward from the Sun, is Mercury, Venus, Earth, Mars, and so on.
+
+**5. Question:**
+   - **Options:**
+     - A. 8
+     - B. 16
+     - C. 24
+     - D. 32
+   - **Correct Answer:** D. 32
+   - **Explanation:** The pattern is doubling the previous number. If you start with 8 and double it successively, you get 16, 32, and so on.
+
+
+
+Logical:
+    Logical Reasoning
+    
+Aptitude:
+    Directly all the categories inside.
+
+
+Group Discussion:
+    All the topics listed.
+
+English:
+    Modules of ELTS.

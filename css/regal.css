@@ -1,0 +1,232 @@
+html,body {
+  margin:0;
+    padding:0;
+    
+}
+:root{
+  --white: #353b48;
+  --black: #fafafa;
+  --bg: rgb(228, 246, 250);
+  --sel: #00d1b2;
+}
+
+body{
+    width: 100vw;
+  min-height: 100vh;
+      background:var(--bg);
+    -webkit-font-smoothing: antialiased;
+
+  }
+
+  .box
+  {
+    background: var(--black);
+  }
+  input[type=radio]{
+    
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+  }
+.header{
+  margin-top: 10px;
+}
+  .navbar
+  {
+      padding: 5px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      box-shadow:  0 0 15px lightgrey;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+
+  .question{
+    color: var(--white)
+  }
+
+  .button
+  {
+    justify-content: flex-start !important; 
+    text-align: left !important;
+    background-color: var(--black);
+    color: var(--white)
+  }
+  .button:focus
+  {
+    box-shadow:  0 0 5px #00d1b2bc !important;
+    color: var(--white);
+    border: 0px
+  }
+
+  .button:hover
+  {
+    color: var(--white);
+    box-shadow:  0 0 5px #00d1b2bc !important;
+    border: 0px
+
+  }
+
+  .optname {
+
+    font-weight: 600;
+    padding-bottom: 1px;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    color: var(--white);
+    display: inline-block;
+
+  }
+
+  .material-icons {
+      margin-right: 5px !important;
+  }
+  .helprow
+  {
+      display: flex;
+      justify-content: space-between;
+
+  }
+  .dashcard
+  {
+    width: fit-content !important;
+  }
+  .quesrow
+  {
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  .titlec
+  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
+  .timer {
+    display:flex;
+    margin-right: 10px;
+    margin: 5px;
+  }
+
+  .timer > h3 
+  {
+    font-weight: 600;
+  }
+
+ 
+
+  @media (max-width: 768px)
+  {
+      .helprow
+      {
+          flex-direction: column;
+      }
+  }
+  clock {
+    font-size: 175px;
+    width: 900px;
+    margin: 200px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+
+
+  .table{
+    width: 100% !important;
+  }
+.score-card{
+    width: 60%;
+    float: center;
+    line-height: 40px;
+}
+
+.score-card span{
+    background-color: rgb(34, 139, 34);
+    padding: 1px 5px;
+    border: none;
+    color:white;
+    border-radius: 8px;
+}
+
+.button .correct{
+    background-color: limegreen;
+    
+}
+
+.button .wrong{
+    background-color: pink;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
