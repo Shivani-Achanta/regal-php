@@ -21,10 +21,7 @@ The platform focuses on a seamless learning experience, allowing students to eas
 
 ## Installation steps
 
-1. **Clone the Repository**: First, clone the repository to your local machine using the following command:
-
-    ```bash
-    git clone <repo-url>  
+1. **Clone the Repository**: First, clone the repository to your local machine.
 
 2. **Place the Code Folder**: Move the cloned code folder into your XAMPP `htdocs` directory.
 
